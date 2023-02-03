@@ -5,8 +5,8 @@ function FunkKomp(props) {
 
     return (
         <div>
-            <p> Ovo je Funkcionalna komponenta </p>
-            {isDateEven() && "Date is even"}
+            <p> Funkcionalna komponenta </p>
+            {isDateEven() && "Date is even"(date)}
             {!isDateEven() && generateRandomNumber(1, 100)}
         </div>
     );
